@@ -18,6 +18,7 @@ public class Square extends Shape {
 	}
 	
 	public  double circumference() {
+		//2*width+2*height
 		return this.width+this.height;
 	}
 	
